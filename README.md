@@ -18,6 +18,20 @@ the prompt stretched along the bottom, and a clickable model switcher.
 
 Needs OpenCode **v2** (tested on 2.0.23). In v2 the TUI reads `~/.config/opencode/cli.json`.
 
+### Let OpenCode install it
+
+Open OpenCode and send it this message:
+
+```text
+Install opencode-neo-bear for me by following https://raw.githubusercontent.com/GbaGuy/opencode-neo-bear/main/INSTALL.md
+```
+
+It downloads the files, copies them into your config, and adds the theme and plugins to
+`cli.json` without touching anything else. Then quit and reopen OpenCode.
+[`INSTALL.md`](INSTALL.md) is the step-by-step guide it follows, if you want to read it first.
+
+### Manual install
+
 ```sh
 git clone https://github.com/GbaGuy/opencode-neo-bear
 cd opencode-neo-bear
