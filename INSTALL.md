@@ -16,6 +16,9 @@ See the manual install in the [README](README.md#manual-install).
 ## For the AI agent: steps to follow
 
 You are an AI coding agent (for example OpenCode) installing **opencode-neo-bear** for the user.
+The quickest correct way is to run the repo's installer, which does steps 3–5 below:
+`curl -fsSL https://raw.githubusercontent.com/GbaGuy/opencode-neo-bear/main/install.sh | sh`.
+If you cannot run it (no python3, curl or tar), follow the steps by hand.
 Follow these steps exactly, using shell commands. Do not modify anything outside the OpenCode
 config directory, and do not remove or reorder anything the user already has.
 

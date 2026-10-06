@@ -18,6 +18,17 @@ the prompt stretched along the bottom, and a clickable model switcher.
 
 Needs OpenCode **v2** (tested on 2.0.23). In v2 the TUI reads `~/.config/opencode/cli.json`.
 
+### One command
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/GbaGuy/opencode-neo-bear/main/install.sh | sh
+```
+
+It copies the theme and plugins into `~/.config/opencode` (or `$XDG_CONFIG_HOME/opencode`), sets
+the theme to neo and adds the plugins to `cli.json`, keeping everything else you have. A file it
+replaces is kept as `.bak`. Running it again is safe. Needs `python3`, `curl` and `tar`. Then
+quit and reopen OpenCode. (From a clone, `./install.sh` does the same without downloading.)
+
 ### Let OpenCode install it
 
 Open OpenCode and send it this message:
