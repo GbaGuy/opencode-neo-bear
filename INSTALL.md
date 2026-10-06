@@ -1,4 +1,19 @@
-# Install opencode-neo-bear (instructions for an AI agent)
+# Install opencode-neo-bear
+
+## For humans: let OpenCode do it
+
+Open OpenCode (v2) and send it this message:
+
+```text
+Install opencode-neo-bear for me by following https://raw.githubusercontent.com/GbaGuy/opencode-neo-bear/main/INSTALL.md
+```
+
+It follows the steps below, then asks you to quit and reopen OpenCode. Prefer doing it by hand?
+See the manual install in the [README](README.md#manual-install).
+
+---
+
+## For the AI agent: steps to follow
 
 You are an AI coding agent (for example OpenCode) installing **opencode-neo-bear** for the user.
 Follow these steps exactly, using shell commands. Do not modify anything outside the OpenCode
